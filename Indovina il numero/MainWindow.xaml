@@ -1,0 +1,21 @@
+﻿<Window x:Class="Indovina_il_numero.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Indovina_il_numero"
+        mc:Ignorable="d"
+        Title="ThaSupreme" Height="446" Width="679">
+    <Grid Background="DarkViolet" >
+        <Button Content="INDOVINA" HorizontalAlignment="Left" Height="45" Margin="255,211,0,0" VerticalAlignment="Top" Width="177" Click="Indovina_Click" FontWeight="Bold" FontFamily="Swis721 BlkEx BT" FontSize="18" />
+        <TextBox Name="txtDifficoltà" HorizontalAlignment="Left" Height="40" Margin="75,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" FontSize="18" FontWeight="Bold" TextAlignment="Center"/>
+        <Label Name="lblRisultato" Content="" HorizontalAlignment="Left" Height="55" Margin="145,315,0,0" VerticalAlignment="Top" Width="420" FontSize="20" FontWeight="Bold" Foreground="Yellow"/>
+        <TextBox Name="txtNumero" IsEnabled="False" HorizontalAlignment="Left" Height="40" Margin="415,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" FontSize="18" FontWeight="Bold" TextAlignment="Center"/>
+        <Label Content="THASUPREME  GAME"  HorizontalAlignment="Left" Height="45" Margin="10,10,0,0" VerticalAlignment="Top" Width="245" FontWeight="Bold" FontFamily="Showcard Gothic" FontSize="24" Foreground="Yellow"/>
+        <Label Content="INSERISCI UN LIVELLLO &#xD;&#xA;DI DIFFICOLTA' DA 1 A N" HorizontalAlignment="Left" Height="40" Margin="75,80,0,0" VerticalAlignment="Top" Width="180" Foreground="Yellow" FontWeight="Bold" FontFamily="Rockwell Extra Bold"/>
+        <Label Content="INSERISCI UN NUMERO&#xD;&#xA;DA 1 A N" HorizontalAlignment="Left" Height="40" Margin="415,80,0,0" VerticalAlignment="Top" Width="180" Foreground="Yellow" FontWeight="Bold" FontFamily="Rockwell Extra Bold"/>
+        <Button Content="RESET" HorizontalAlignment="Left" Height="45" Margin="484,211,0,0" VerticalAlignment="Top" Width="177" Click="Reset_Click" FontWeight="Bold" FontFamily="Swis721 BlkEx BT" FontSize="18" />
+        <Button Content="GENERA" HorizontalAlignment="Left" Height="45" Margin="10,211,0,0" VerticalAlignment="Top" Width="177" Click="Genera_Click" FontWeight="Bold" FontFamily="Swis721 BlkEx BT" FontSize="18" />
+
+    </Grid>
+</Window>
