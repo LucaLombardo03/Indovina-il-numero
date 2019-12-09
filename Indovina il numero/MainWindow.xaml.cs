@@ -26,14 +26,16 @@ namespace Indovina_il_numero
         }
         Random random = new Random();
         int numero_casuale;
+        int livello_difficoltà;
         private void Genera_Click(object sender, RoutedEventArgs e)
         {
-            int livello_difficoltà = int.Parse(txtDifficoltà.Text);
+            livello_difficoltà = 
             if (livello_difficoltà < 0 || livello_difficoltà >= 101)
                 MessageBox.Show("IL NUMERO E' FUORI DAI LIMITI");
             else
             {
                 numero_casuale = random.Next(1, livello_difficoltà);
+                lblRisultato.Content = "Sto pensando.....";
                 txtNumero.IsEnabled = true;
             }
         }
@@ -41,7 +43,7 @@ namespace Indovina_il_numero
         private void Indovina_Click(object sender, RoutedEventArgs e)
         {
             int numero = int.Parse(txtNumero.Text);
-            if (numero>numero_casuale)
+            if (numero > livello_difficoltà)
             {
                 MessageBox.Show("IL NUMERO E' FUORI DAI LIMITI");
             } else 

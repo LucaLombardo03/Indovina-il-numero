@@ -9,7 +9,7 @@
     <Grid Background="DarkViolet" >
         <Button Content="INDOVINA" HorizontalAlignment="Left" Height="45" Margin="255,211,0,0" VerticalAlignment="Top" Width="177" Click="Indovina_Click" FontWeight="Bold" FontFamily="Swis721 BlkEx BT" FontSize="18" />
         <TextBox Name="txtDifficoltà" HorizontalAlignment="Left" Height="40" Margin="75,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" FontSize="18" FontWeight="Bold" TextAlignment="Center"/>
-        <Label Name="lblRisultato" Content="" HorizontalAlignment="Left" Height="55" Margin="145,315,0,0" VerticalAlignment="Top" Width="420" FontSize="20" FontWeight="Bold" Foreground="Yellow"/>
+        <Label Name="lblRisultato" Content="" HorizontalAlignment="Left" Height="55" Margin="140,320,0,0" VerticalAlignment="Top" Width="420" FontSize="20" FontWeight="Bold" Foreground="Yellow"/>
         <TextBox Name="txtNumero" IsEnabled="False" HorizontalAlignment="Left" Height="40" Margin="415,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" FontSize="18" FontWeight="Bold" TextAlignment="Center"/>
         <Label Content="THASUPREME  GAME"  HorizontalAlignment="Left" Height="45" Margin="10,10,0,0" VerticalAlignment="Top" Width="245" FontWeight="Bold" FontFamily="Showcard Gothic" FontSize="24" Foreground="Yellow"/>
         <Label Content="INSERISCI UN LIVELLLO &#xD;&#xA;DI DIFFICOLTA' DA 1 A N" HorizontalAlignment="Left" Height="40" Margin="75,80,0,0" VerticalAlignment="Top" Width="180" Foreground="Yellow" FontWeight="Bold" FontFamily="Rockwell Extra Bold"/>
