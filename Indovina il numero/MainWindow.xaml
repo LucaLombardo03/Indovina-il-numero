@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Indovina_il_numero"
         mc:Ignorable="d"
-        Title="ThaSupreme" Height="446" Width="679">
+        Title="ThaSupreme" Height="446" Width="679"> 
     <Grid Background="DarkViolet" >
         <Button Name="btnIndovina" Content="INDOVINA" IsEnabled="False" HorizontalAlignment="Left" Height="45" Margin="255,199,0,0" VerticalAlignment="Top" Width="177" Click="Indovina_Click" FontWeight="Bold" FontFamily="Swis721 BlkEx BT" FontSize="18" />
         <TextBox Name="txtDifficoltà" HorizontalAlignment="Left" Height="40" Margin="75,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" FontSize="18" FontWeight="Bold" TextAlignment="Center"/>
